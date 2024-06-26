@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>REEVO Assignment</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <script src="./node_modules/pixi.js/dist/pixi.min.js"></script>
+        <div class="application-container">
+            <div class="info-container">
+                <div class="item">
+                    Number of current <br />shapes:
+                    <span id="nr-shapes">0</span>
+                </div>
+                <div class="item">
+                    Surface area occupied <br />by shapes:
+                    <span id="area-shapes">0</span> px^2
+                </div>
+            </div>
+            <div class="canvas-container">
+                <div class="canvas"></div>
+            </div>
+            <div class="buttons-container">
+                <div class="buttons-wrapper">
+                    <button id="shapes-decrease">-</button>
+                    <button id="shapes-increase">+</button>
+                    <p>Number of shapes</p>
+                </div>
+                <div class="buttons-wrapper">
+                    <button id="gravity-decrease">-</button>
+                    <button id="gravity-increase">+</button>
+                    <p>Gravity Value</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./app.js"></script>
+</html>
